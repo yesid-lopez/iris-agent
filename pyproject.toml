@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "iris"
+packages = [{include = "iris"}]
+version = "0.1.0"
+description = ""
+authors = ["Yesid Lopez <<yesid.leonardo.lopez@hotmail.com>>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "*"}
+python-dotenv = "^1.0.1"
+langgraph = "^0.2.21"
+langchain-community = "^0.3.7"
+sseclient-py = "^1.8.0"
+langchain-openai = "^0.2.9"
+streamlit = "^1.40.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
