@@ -1,0 +1,12 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "iris": "./iris/graphs/introduction/graph.py:graph",
+    "products": "./iris/graphs/product/graph.py:product_graph"
+  },
+  "env": ".env",
+  "python_version": "3.12",
+  "dependencies": [
+    "."
+  ]
+}
